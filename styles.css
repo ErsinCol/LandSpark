@@ -169,4 +169,53 @@ p {
     font-weight: bold;
 }
 
+.call-to-action-section {
+    display: flex;
+    height: 300px;
+}
+
+.call-to-action-section > .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.call-to-action-section > .content > button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    padding: 10px 30px;
+    flex-shrink: 0;
+}
+
+.call-to-action-section > .content > .detail {
+    display: flex;
+    flex-direction: column; 
+}
+
+.call-to-action-section > .content > .detail > .text {
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.call-to-action-section > .content > .detail > .subtext {
+    color: #F9FAF8;
+    font-weight: lighter;
+}
+
+.call-to-action-section > .content > .detail > .subtext,
+.call-to-action-section > .content > .detail > .text {
+    min-width: 0;   
+}
+
+
+
 
