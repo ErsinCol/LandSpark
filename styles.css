@@ -216,6 +216,19 @@ p {
     min-width: 0;   
 }
 
+.footer {
+    display: flex;
+    background-color:  #1F2937;
+    color: white;
+    height: 80px;
+}
+
+.footer > .content {
+    font-weight: lighter;
+    padding: 5px;
+    margin: auto;
+}
+
 
 
 
