@@ -1,6 +1,6 @@
-/* * {
-    border: 1px solid red;
-} */
+    /* * {
+        border: 1px solid red;
+    } */
 
 body {
     display: flex;
@@ -90,6 +90,5 @@ button {
     color: white;
     border-radius: 8px;
 }
-
 
 
