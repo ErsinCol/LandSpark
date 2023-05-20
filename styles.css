@@ -83,7 +83,7 @@ p {
     color: #F9FAF8;
 }
 
-button {
+.hero-text > button {
     width:fit-content;
     padding: 8px;
     background-color: #3882F6;
