@@ -7,7 +7,7 @@ body {
     flex-direction: column;
 }
 
-ul {
+/* ul {
     display: flex;
     list-style-type: none;
     margin: 0;
@@ -89,7 +89,44 @@ p {
     background-color: #3882F6;
     color: white;
     border-radius: 8px;
+} */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color: #1F2937;
 }
+
+.header-logo {
+    font-size: 24px;
+    color: #F0FAF8;
+    flex-shrink: 0;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    min-width: 0px;
+}
+
+.header-links > li {
+    padding: 4px;
+    text-align: center;
+    white-space: nowrap;
+    min-width: 0px;
+}
+
+.header-links > li > a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}   
 
 .main-section-two {
     display: flex;
